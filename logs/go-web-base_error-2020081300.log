@@ -1,0 +1,6 @@
+2020-08-13 17:17:22	ERROR	config/mysql.go:14	mysql连接错误:dial tcp 127.0.0.1:3306: connectex: No connection could be made because the target machine actively refused it.
+2020-08-13 17:19:37	ERROR	config/mysql.go:14	mysql连接错误:dial tcp 127.0.0.1:3306: connectex: No connection could be made because the target machine actively refused it.
+2020-08-13 17:19:51	ERROR	config/mysql.go:14	mysql连接错误:dial tcp 127.0.0.1:3306: connectex: No connection could be made because the target machine actively refused it.
+2020-08-13 17:20:34	ERROR	config/mysql.go:14	mysql连接错误:dial tcp 127.0.0.1:3306: connectex: No connection could be made because the target machine actively refused it.
+2020-08-13 17:21:28	ERROR	config/mysql.go:14	mysql连接错误:dial tcp 127.0.0.1:3306: connectex: No connection could be made because the target machine actively refused it.
+2020-08-13 17:22:24	ERROR	config/mysql.go:14	mysql连接错误:dial tcp 127.0.0.1:3306: connectex: No connection could be made because the target machine actively refused it.
