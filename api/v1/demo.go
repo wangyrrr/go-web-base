@@ -10,6 +10,10 @@ import (
 func GetDemo(c *gin.Context) {
 	var pageInfo bo.PageInfo
 	c.ShouldBindQuery(&pageInfo)
-	result := service.GetDemo(pageInfo)
-	response.SuccessWithData(result, c)
+	result, err := service.GetDemo(pageInfo)
+	if err != nil {
+		response.ExceptionWithMsg(err.Error(), c)
+	} else {
+		response.SuccessWithData(result, c)
+	}
 }

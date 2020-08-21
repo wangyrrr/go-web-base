@@ -7,5 +7,5 @@ import (
 
 func InitDemoRouter(router *gin.RouterGroup) {
 	apiRouter := router.Group("/v1/demo")
-	apiRouter.GET("getDemo", v1.GetDemo)
+	apiRouter.GET("/getDemo", v1.GetDemo)
 }

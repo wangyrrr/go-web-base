@@ -13,5 +13,6 @@ func Routers() *gin.Engine {
 	// 统一路由管理
 	apiGroup := r.Group("/api")
 	router.InitDemoRouter(apiGroup)
+	router.InitUserRouter(apiGroup)
 	return r
 }

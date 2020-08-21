@@ -11,6 +11,7 @@ const ERROR = 500
 type Response struct {
 	Code int         `json: "code"`
 	Msg  string      `json:"msg"`
+	//Tip  string      `json:"tip"`
 	Data interface{} `json:"data"`
 }
 

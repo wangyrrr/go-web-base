@@ -7,6 +7,7 @@ import (
 
 func DbTables() {
 	db := global.DB
-	db.AutoMigrate(entity.Demo{})
+	db.AutoMigrate(entity.Demo{},
+		entity.User{})
 	global.LOG.Info("初始化数据库表成功")
 }
